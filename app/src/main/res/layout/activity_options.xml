@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="p14141535.superslidepenguin.Controller.OptionsActivity"
+    android:background="@drawable/background">
+
+    <ImageButton
+        android:layout_width = "50dp"
+        android:layout_height= "50dp"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/back"
+        android:id="@+id/Back_Button"
+        android:onClick="GoBack"
+        android:layout_marginTop="240dp"/>
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="Options"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/OptionsTitle" />
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="Music"
+        android:background="@null"
+        android:textSize="30dp"
+        android:id="@+id/MusicTitle"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/MusicTitle"
+        android:layout_toEndOf="@+id/MusicTitle"/>
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="SFX"
+        android:background="@null"
+        android:textSize="30dp"
+        android:id="@+id/SFXTitle"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="70dp"
+        />
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="100dp"
+        android:layout_toRightOf="@+id/SFXTitle"
+        android:layout_toEndOf="@+id/SFXTitle"/>
+
+    <Button
+        android:layout_width = "200dp"
+        android:layout_height= "50dp"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Reset"
+        android:text = "Reset Leaderboards"
+        android:layout_marginTop="200dp" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Super Slide Penguin</string>
+    <string name="Begin_button">Play</string>
+    <string name="Leaderboards_button">Leaderboards</string>
+    <string name="Theme_button">Theme</string>
+    <string name="Options_button">Options</string>
+    <string name="title_activity_leaderboard">LeaderboardActivity</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="Back_Button">Back</string>
+
+    <string name="leaderboards_title">Leaderboards</string>
+    <string name="name1">AAA</string>
+    <string name="name2">AAA</string>
+    <string name="name3">AAA</string>
+
+    <string name="score1">0</string>
+    <string name="score2">0</string>
+    <string name="score3">0</string>
+
+    <string name="newName">AAA</string>
+    <string name="newScore">0</string>
+
+    <string name="okButton">Ok</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="p14141535.superslidepenguin.Controller.LeaderboardsActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="Leaderboards"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:id = "@+id/leaderboards_title"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="AAA"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:id = "@+id/name1"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="AAA"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="80dp"
+        android:id = "@+id/name2"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="AAA"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="120dp"
+        android:id = "@+id/name3"/>
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="0"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="40dp"
+        android:id = "@+id/score1"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="0"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="80dp"
+        android:id = "@+id/score2"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text="0"
+        android:background="@null"
+        android:textSize="30dp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="120dp"
+        android:id = "@+id/score3"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="160dp"
+        android:text="AAA"
+        android:visibility="gone"
+        android:id = "@+id/newName"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="160dp"
+        android:textSize="30dp"
+        android:visibility="gone"
+        android:id = "@+id/newScore"/>
+
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/okButton"
+        android:text = "OK"
+        android:layout_marginTop="220dp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/back"
+        android:id="@+id/Back_Button"
+        android:onClick="GoBack"
+        android:layout_marginTop="240dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="Controller.MainActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:src = "@drawable/ssp"
+        android:contentDescription="@string/app_name"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/Begin_button"
+        android:id="@+id/Begin_Button"
+        android:onClick="BeginGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/ice"
+        />
+
+    <ImageButton
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/leaderboards"
+        android:id="@+id/Leaderboards_Button"
+        android:onClick="OpenLeaderboards"
+        android:layout_marginTop="180dp" />
+
+    <ImageButton
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/help"
+        android:id="@+id/Help_button"
+        android:onClick="OpenHelp"
+        android:layout_marginTop="60dp" />
+
+    <ImageButton
+        android:layout_width = "wrap_content"
+        android:layout_height= "wrap_content"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:src="@drawable/options"
+        android:id="@+id/Options_button"
+        android:onClick="OpenOptions"
+        android:layout_marginTop="120dp" />
+</RelativeLayout>
